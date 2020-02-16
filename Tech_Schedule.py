@@ -31,7 +31,7 @@ def get_weather(sl):
 
     label['text']= formatting(weather)
     
-    
+    print(weather)
     print(weather['name'])
     print(weather['weather'][0]['description'])
     print(weather['main']['temp'])
